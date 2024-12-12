@@ -57,3 +57,94 @@ if (a > 0 && b > 0) {
     console.log("Masala 6:");
     console.log("Gipotenuza:", c, "Perimetri:", P);
 }
+
+
+
+
+
+//BOOLEAN MASALALARI
+
+// Boolean1
+// A butun soni berilgan. Jumlani rostlikka tekshiring: "A soni juft son"
+let A = 8;
+if (A % 2 == 0) {
+    console.log("Boolean1: A soni juft");
+} else {
+    console.log("Boolean1: A soni toq");
+}
+
+// Boolean2
+// Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A >= 0 yoki B < -2"
+let B = -3;
+if (A >= 0 || B < -2) {
+    console.log("Boolean2: Rost");
+} else {
+    console.log("Boolean2: Noto‘g‘ri");
+}
+
+// Boolean3
+// Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "B soni A va C sonlari orasida yotadi"
+let C = 15;
+if (A < B && B < C) {
+    console.log("Boolean3: Rost");
+} else {
+    console.log("Boolean3: Noto‘g‘ri");
+}
+
+// Boolean4
+// Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlari toq sonlar"
+if (A % 2 != 0 && B % 2 != 0) {
+    console.log("Boolean4: Rost");
+} else {
+    console.log("Boolean4: Noto‘g‘ri");
+}
+
+// Boolean5
+// Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlarning hech bo‘lmaganda bittasi toq son"
+if (A % 2 != 0 || B % 2 != 0) {
+    console.log("Boolean5: Rost");
+} else {
+    console.log("Boolean5: Noto‘g‘ri");
+}
+
+// Boolean6
+// Ikkita butun A va B sonlari berilgan. Jumlani rostlikka tekshiring: "A va B sonlarning faqat bittasi toq son"
+if ((A % 2 != 0 && B % 2 == 0) || (A % 2 == 0 && B % 2 != 0)) {
+    console.log("Boolean6: Rost");
+} else {
+    console.log("Boolean6: Noto‘g‘ri");
+}
+
+// Boolean7
+// Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlarning har biri musbat"
+if (A > 0 && B > 0 && C > 0) {
+    console.log("Boolean7: Rost");
+} else {
+    console.log("Boolean7: Noto‘g‘ri");
+}
+
+// Boolean8
+// Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlaridan faqat bittasi musbat son"
+if ((A > 0 && B <= 0 && C <= 0) || (A <= 0 && B > 0 && C <= 0) | (A <= 0 && B <= 0 && C > 0)) {
+    console.log("Boolean8: Rost");
+} else {
+    console.log("Boolean8: Noto‘g‘ri");
+}
+
+// Boolean9
+// Uchta A, B, C butun sonlar berilgan. Jumlani rostlikka tekshiring: "A, B, C sonlardan faqat ikkitasi musbat son"
+if ((A > 0 && B > 0 && C <= 0) || (A > 0 && B <= 0 && C > 0) || (A <= 0 && B > 0 && C > 0)) {
+    console.log("Boolean9: Rost");
+} else {
+    console.log("Boolean9: Noto‘g‘ri");
+}
+
+// Boolean10
+// Musbat butun son berilgan. Jumlani rostlikka tekshiring: "Berilgan son ikki xonali juft son"
+let number = 24;
+if (number > 9 && number < 100 && number % 2 == 0) {
+    console.log("Boolean10: Rost");
+} else {
+    console.log("Boolean10: Noto‘g‘ri");
+}
+
